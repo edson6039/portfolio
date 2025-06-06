@@ -1,0 +1,13 @@
+.languages {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding-right: 1rem;
+    list-style: none;
+}
+
+.languages li {
+    padding: 0 1rem 1rem 2rem;
+}

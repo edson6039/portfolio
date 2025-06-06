@@ -1,0 +1,18 @@
+
+.experience {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    flex-direction: column;
+}
+
+.experience li .divisor {
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-start;
+}
+
+.experience li .divisor .title {
+    font-size: 1.5rem;
+}
