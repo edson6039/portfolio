@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edson Augusto Santos Souza | Portfolio para o Lab da DIO</title>
+  <meta name="description" content="Portfólio do desenvolvedor full-stack Edson Augusto para compartilhar projetos e habilidades desenvolvidas.">
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="header__nav">
+      <ul class="menu menu--principal">
+        <li class="menu__item">
+          <a class="menu__link active" href="#home">
+            <span class="menu__text">Home</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#projetos">
+            <span class="menu__text">Projetos</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#sobre">
+            <span class="menu__text">Sobre</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#contato">
+            <span class="menu__text">Contato</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header__brand">
+      <a href="#home">
+        <img class="brand__logo" src="assets/images/logo-ea.png" alt="Logo EA">
+      </a>
+    </div>
+    <div class="header__toggle">
+      <i id="toggleTheme" class="bi bi-sun"></i>
+    </div>
+  </header>
+  <nav class="nav--mobile">
+    <ul class="menu menu--mobile">
+      <li class="menu__item">
+        <a class="menu__link active" href="#home">
+          <i class="menu__icon bi bi-house-door"></i>
+          <span class="menu__text">Home</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#projetos">
+          <i class="menu__icon bi bi-window-stack"></i>
+          <span class="menu__text">Projetos</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#sobre">
+          <i class="menu__icon bi bi-person"></i>
+          <span class="menu__text">Sobre</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#contato">
+          <i class="menu__icon bi bi-envelope"></i>
+          <span class="menu__text">Contato</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <main id="home">
+    <div class="main__content1">
+      <h1><b>Página Principal</b></h1>
+      <p>Edson Augusto, Alagoinhas-BA, Desenvolvedor Full-stack.</p> 
+      <ul class="menu menu--social">
+        <li>
+          <a class="menu__link" href="https://github.com/edson6039" target="_blank">
+            <i class="menu__icon bi bi-github"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="https://www.linkedin.com/in/edson-augusto-santos-souza-379b7a198//" target="_blank">
+            <i class="menu__icon bi bi-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="" target="_blank">
+            <i class="menu__icon bi bi-instagram"></i>
+          </a>
+        </li>
+      </ul>
+      <a href="#projetos">
+        <button class="btn btn--primary">
+          <span>Ver Projetos</span>
+          <i class="bi bi-arrow-down-right"></i>
+        </button>  
+      </a>
+    </div>
+    <div class="main__content2"></div>
+  </main>
+
+  <section class="technologies">
+    <h2>Conhecimento nas principais tecnologias do mercado</h2>
+    <ul class="technologies__list">
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/Js.png" alt="Logo Javascript">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/Csharp.png" alt="Logo C#">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/CSS.png" alt="Logo CSS">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/Html.png" alt="Logo HTML">
+      </li>
+    </ul>
+  </section>
+
+  <section id="projetos" class="projects">
+    <h2>Projetos</h2>
+    <div class="projects__container">
+      <div class="projects__card">
+        <img class="card__cover" src="assets/images/projects/pokedex.PNG" alt="Pokedex">
+        <div class="card__body">
+          <h3 class="card__title">Pokedex</h3>
+          <p class="card__description">Lista de todos os pokemons criados</p>
+          <ul class="card__list">
+            <li class="card__item">Listagem;</li>
+            <li class="card__item">Status base;</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/Js.png" alt="Logo JS">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/Html.png" alt="Logo Html">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/CSS.png" alt="Logo CSS">
+            </li>
+          </ul>
+          <div class="card__buttons">
+            <a href="https://github.com/edson6039/pokedex" target="_blank">
+              <button class="btn btn--primary">
+                <span>Repositório</span>
+                <i class="bi bi-arrow-up-right"></i>
+              </button>  
+            </a>  
+          </div>
+        </div>
+      </div>
+      </div>
+      <a href="https://github.com/edson6039" target="_blank">
+        <button class="btn btn--primary">
+          <span>Ver Todos os Projetos</span>
+          <i class="bi bi-arrow-up-right"></i>
+        </button>  
+      </a>
+    </div>
+  </section>
+
+  <section id="sobre" class="about">
+    <div class="about__content1">
+      <img class="about__photo" src="assets/images/avatar.jpg" alt="">
+      <div class="about__description">
+        <h2>Sobre mim</h2>
+        <p>
+          Olá! Meu nome é Edson Augusto. Comecei a programar aos 16 anos, enquanto cursava Sistemas de Informação na UNEB – Campus II.
+         Ao longo da minha trajetória, atuei como assistente administrativo e suporte técnico, experiências que me ajudaram a desenvolver
+          organização, comunicação e visão de negócio. Hoje, estou focado em construir minha carreira como desenvolvedor fullstack, sempre 
+          buscando criar soluções que façam a diferença.
+        </p>  
+        <div class="about__icons">
+          <i class="bi bi-translate"></i>
+          <span>Inglês: Avançado | Espanhol: Básico</span>
+        </div>
+        <div class="description__buttons">
+          <a href="https://www.linkedin.com/in/edson-augusto-santos-souza-379b7a198/" target="_blank">
+            <button class="btn btn--primary">
+              <span>Conecte-se Comigo</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button> 
+          </a>
+          <a href="/assets/files/curriculo.pdf" download="Curriculo_Edson_Augusto.pdf">
+            <button class="btn">
+              <span>Currículo</span>
+              <img id="download" src="/assets/images/download.png" alt="download">
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="about__content2">
+      <div class="col1">
+        <div class="row1">
+          <h3>Formação</h3>
+          <h4>Sistemas de Informação</h4>
+          <span>Jul 2017 - Dez 2022</span>
+          <div class="about__icons">
+            <i class="bi bi-bank"></i>
+            <span>Uneb Campus II</span>
+          </div>
+          <div class="about__icons">
+            <i class="bi bi-mortarboard"></i>
+            <span>Graduação Bacharelado</span>
+          </div>
+        </div>
+        <div class="row2">
+          <h3>Experiências</h3>
+          <h4>Suporte Técnico</h4>
+          <span>BTS BRASIL Mar 2024 - Dez 2024</span>
+          <span>
+            Suporte técnico em Sistema de Gestão Integrado (ERP) com foco em varejo e Sistema de Frente de Caixa com Gestão de Estoque.
+          </span>
+          <ul class="about__list">
+            <li class="about__item">Atendimento Help Desk ou presencial;</li>
+            <li class="about__item">Implantação e treinamento de sistema;</li>
+            <li class="about__item">Resolução de problemas.</li>
+          </ul>
+        </div>
+        <div class="row2">
+          <h4>Aprendiz Assistente Administrativo</h4>
+          <span>Grupo Petropolis Mar 2022 - Mar 2024</span>
+          <span>
+            Jovem aprendiz assistente administrativo da área de manutenção PCM (Planejamento e Controle de Manutenção).
+          </span>
+          <ul class="about__list">
+            <li class="about__item">Tratamento de notas de manutenção;</li>
+            <li class="about__item">Criação e programação de ordens de manutenção;</li>
+            <li class="about__item">Controle de recursos de manutenção.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col2">
+        <h3>Cursos</h3>
+        <div id="accordion">
+          <div class="accordion__item active">
+            <button class="accordion__header start">
+              <span>Javascript Developer</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body">
+              <p>
+                DIO. Jun 2025. 39h.
+              </p>
+              <a href="https://hermes.dio.me/certificates/2ZW9NMHF.pdf" target="_blank"><b><u>CERTIFICADO</u></b></a>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__header">
+              <span>Html Developer</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body">
+              <p>
+                DIO. Dez 2024. 21h.
+              </p>
+              <a href="https://hermes.dio.me/certificates/6GWLAPP6.pdf" target="_blank"><b><u>CERTIFICADO</u></b></a>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__header end">
+              <span>Css Developer</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body end">
+              <p>
+                DIO. Mar 2025. 43h.
+              </p>
+              <a href="https://hermes.dio.me/certificates/GGVWWY9C.pdf" target="_blank"><b><u>CERTIFICADO</u></b></a>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__header end">
+              <span>Excel com IA</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body end">
+              <p>
+                DIO. Jun 2025. 26h.
+              </p>
+              <a href="https://hermes.dio.me/certificates/6GWLAPP6.pdf" target="_blank"><b><u>CERTIFICADO</u></b></a>
+            </div>
+          </div>
+        </div>
+  </section>
+  
+  <section id="contato" class="contact">
+    <h2>Contate-me</h2>
+    <p>Estou disponível para serviços e novas conexões. Contate-me via 
+      e-mail e conecte-se comigo através das minhas redes sociais.
+    </p>
+    <ul class="menu menu--social">
+      <li>
+        <a class="menu__link" href="https://github.com/edson6039" target="_blank">
+          <i class="menu__icon bi bi-github"></i>
+          <span>GitHub</span>
+        </a>
+      </li>
+      <li>
+        <a class="menu__link" href="https://www.linkedin.com/in/edson-augusto-santos-souza-379b7a198//" target="_blank">
+          <i class="menu__icon bi bi-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+      </li>
+      <li>
+        <a class="menu__link" href="" target="_blank">
+          <i class="menu__icon bi bi-instagram"></i>
+          <span>Instagram</span>
+        </a>
+      </li>
+    </ul>
+    <a href="mailto:edson6039@hotmail.com">
+      <button class="btn btn--primary">
+        <span class="email">edson6039@hotmail.com</span>
+      </button>  
+    </a>
+  </section>
+
+  <footer>
+    <p>
+      © 2025.  
+      <a href="https://www.linkedin.com/in/edson-augusto-santos-souza-379b7a198/" target="_blank">Edson Augusto</a>.
+    </p>
+  </footer>
+  <script src="assets/js/scripts.js"></script>
+</body>
+</html>
